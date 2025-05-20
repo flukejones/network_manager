@@ -1,4 +1,4 @@
-use rusty_network_manager::{AccessPointProxy, NetworkManagerProxy, WirelessProxy};
+use network_manager_zbus::{AccessPointProxy, NetworkManagerProxy, WirelessProxy};
 use std::collections::HashMap;
 use tokio_stream::StreamExt;
 use zbus::Connection;

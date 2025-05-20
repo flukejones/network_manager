@@ -13,7 +13,7 @@
 //! contract, tort, or otherwise, arising from, out of, or in connection with the example code or
 //! the use or other dealings in the example code.
 
-use rusty_network_manager::{AccessPointProxy, NetworkManagerProxy, WirelessProxy};
+use network_manager_zbus::{AccessPointProxy, NetworkManagerProxy, WirelessProxy};
 use std::collections::HashMap;
 use tokio_stream::StreamExt;
 use zbus::Connection;

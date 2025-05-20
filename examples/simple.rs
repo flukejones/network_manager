@@ -1,4 +1,4 @@
-use rusty_network_manager::{DeviceProxy, NetworkManagerProxy};
+use network_manager_zbus::{DeviceProxy, NetworkManagerProxy};
 use zbus::Connection;
 
 #[tokio::main]
